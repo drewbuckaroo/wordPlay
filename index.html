@@ -12,12 +12,17 @@
 <body>
   <div class="container" id="intro">
     <h1>Word Play</h1>
-    <p>Enter a sentence.</p>
   </div>
-  <div class="container" id="sentence"> 
-    <form id="formOne"> 
-
+  <div class="container" id="sentenceContainer"> 
+    <form id="formOne">
+      <div class="sentence-group">
+        <label for="sentence">Enter a Sentence</label>
+        <input type="text" id="sentence">
+        <button type="submit" class ="btn btn-danger">Submit</button>
+      </div> 
+      <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
     </form>
+    <p id="newSentence"></p>
   </div>
 
   
